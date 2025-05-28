@@ -17,7 +17,7 @@ npm install reacto-loader
 yarn add reacto-loader
 ```
 
-> **Note for React Native / Expo Users:**  
+> **Note for React Native / Expo Users:**
 > To use `reacto-loader` in React Native or Expo environments, make sure you also install these required peer dependencies:
 
 - [`react-native-svg`](https://www.npmjs.com/package/react-native-svg)
@@ -25,56 +25,9 @@ yarn add reacto-loader
 
 Follow the installation steps in their documentation to ensure proper linking and setup
 
-## Usage
+## Circular Loader
 
-### React
-
-```tsx
-import React from "react";
-import { CircularLoader } from "reacto-loader";
-
-function App() {
-  return (
-    <div>
-      <CircularLoader
-        size={120}
-        primaryColor="#4F46E5"
-        secondaryColor="#3B82F6"
-        speed={1.8}
-        thickness={10}
-        backgroundOpacity={0.15}
-      />
-    </div>
-  );
-}
-
-export default App;
-```
-
-### React Native / Expo
-
-```tsx
-import React from "react";
-import { View } from "react-native";
-import { CircularLoader } from "reacto-loader";
-
-export default function App() {
-  return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <CircularLoader
-        size={120}
-        primaryColor="#4F46E5"
-        secondaryColor="#3B82F6"
-        speed={1.8}
-        thickness={10}
-        backgroundOpacity={0.15}
-      />
-    </View>
-  );
-}
-```
-
-## Props
+![CircularLoader Example](https://raw.githubusercontent.com/roshab007/reacto-loader/refs/heads/main/gifs/circular_loader.gif)
 
 | Prop                | Type     | Default   | Description                                       |
 | ------------------- | -------- | --------- | ------------------------------------------------- |
@@ -84,6 +37,20 @@ export default function App() {
 | `speed`             | `number` | `1.5`     | Duration (in seconds) for one full animation loop |
 | `thickness`         | `number` | `8`       | Stroke width of the loader circle                 |
 | `backgroundOpacity` | `number` | `0.2`     | Opacity of the background circle                  |
+
+## Bounce Loader
+
+![BounceLoader Example](https://raw.githubusercontent.com/roshab007/reacto-loader/refs/heads/main/gifs/bounce_loader.gif)
+
+| Prop                 | Type     | Default   | Description                                                    |
+| -------------------- | -------- | --------- | -------------------------------------------------------------- |
+| `primaryColor`       | `string` | `#3B82F6` | Start color of the animated gradient on the dots               |
+| `secondaryColor`     | `string` | `#93C5FD` | End color of the animated gradient on the dots                 |
+| `speed`              | `number` | `0.8`     | Duration (in seconds) of one full bounce animation             |
+| `dotCount`           | `number` | `3`       | Number of bouncing dots                                        |
+| `dotSize`            | `number` | `16`      | Diameter of each dot in pixels                                 |
+| `dotSpacing`         | `number` | `8`       | Spacing (gap) between dots in pixels                           |
+| `bounceHeightFactor` | `number` | `1.5`     | Multiplier for how high the dots bounce relative to their size |
 
 ## 📄 License
 
