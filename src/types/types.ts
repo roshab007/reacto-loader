@@ -9,3 +9,10 @@ export interface CircularLoaderProps extends BaseLoaderProps {
   thickness?: number;
   backgroundOpacity?: number;
 }
+
+export interface BounceLoaderProps extends Omit<BaseLoaderProps, "size"> {
+  dotCount?: number;
+  dotSize?: number;
+  dotSpacing?: number;
+  bounceHeightFactor?: number;
+}

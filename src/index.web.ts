@@ -1,3 +1,5 @@
+import BounceLoader from "./components/bounceLoader/BounceLoader.web";
 import CircularLoader from "./components/circularLoader/CircularLoader.web";
 
-export { CircularLoader };
+export { BounceLoader, CircularLoader };
+
