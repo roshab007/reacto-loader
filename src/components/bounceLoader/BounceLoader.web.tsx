@@ -1,3 +1,5 @@
+"use client";
+
 import { motion } from "framer-motion";
 import { defaultProps } from "../../store/loaderDefaults";
 import { BounceLoaderProps } from "../../types/types";
