@@ -1,29 +1,29 @@
 import { motion } from "framer-motion";
+import React from "react";
 import { defaultProps } from "../../store/loaderDefaults";
-import { BounceLoaderProps } from "../../types/types";
+import { DotsLoaderProps } from "../../types/types";
 
-const BounceLoader: React.FC<BounceLoaderProps> = ({
+const DotsLoader: React.FC<DotsLoaderProps> = ({
   primaryColor = defaultProps.primaryColor,
   secondaryColor = defaultProps.secondaryColor,
-  speed = 0.8,
+  speed = 1,
   dotCount = 3,
   dotSize = 16,
   dotSpacing = 8,
-  bounceHeightFactor = 1.5,
+  scaleRange = [1, 1.5, 1],
 }) => {
-  const bounceHeight = -(dotSize * bounceHeightFactor);
-  const circles = Array.from({ length: dotCount });
+  const dots = Array.from({ length: dotCount });
 
   return (
     <div
       style={{
-        display: "flex",
         gap: `${dotSpacing}px`,
-        alignItems: "center",
+        display: "flex",
         justifyContent: "center",
+        alignItems: "center",
       }}
     >
-      {circles.map((_, i) => (
+      {dots.map((_, i) => (
         <motion.div
           key={i}
           style={{
@@ -33,12 +33,13 @@ const BounceLoader: React.FC<BounceLoaderProps> = ({
             background: `linear-gradient(to right, ${primaryColor}, ${secondaryColor})`,
           }}
           animate={{
-            y: [0, bounceHeight, 0],
+            scale: scaleRange,
+            opacity: [0.7, 1, 0.7],
           }}
           transition={{
             duration: speed,
             repeat: Number.POSITIVE_INFINITY,
-            delay: i * (speed / dotCount),
+            delay: i * (speed / dotCount / 2),
             ease: "easeInOut",
           }}
         />
@@ -47,4 +48,4 @@ const BounceLoader: React.FC<BounceLoaderProps> = ({
   );
 };
 
-export default BounceLoader;
+export default DotsLoader;
