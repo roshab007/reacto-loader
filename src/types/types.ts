@@ -22,3 +22,9 @@ export interface DotsLoaderProps extends Omit<BaseLoaderProps, "size"> {
   dotSpacing?: number;
   scaleRange?: [number, number, number];
 }
+
+export interface FadeLoaderProps extends BaseLoaderProps {
+  dotCount?: number;
+  dotSize?: number;
+  radius?: number;
+}
