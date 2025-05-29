@@ -38,6 +38,8 @@ Follow the installation steps in their documentation to ensure proper linking an
 | `thickness`         | `number` | `8`       | Stroke width of the loader circle                 |
 | `backgroundOpacity` | `number` | `0.2`     | Opacity of the background circle                  |
 
+<br>
+
 ## Bounce Loader
 
 ![BounceLoader Example](https://raw.githubusercontent.com/roshab007/reacto-loader/refs/heads/main/gifs/bounce_loader.gif)
@@ -51,6 +53,26 @@ Follow the installation steps in their documentation to ensure proper linking an
 | `dotSize`            | `number` | `16`      | Diameter of each dot in pixels                                 |
 | `dotSpacing`         | `number` | `8`       | Spacing (gap) between dots in pixels                           |
 | `bounceHeightFactor` | `number` | `1.5`     | Multiplier for how high the dots bounce relative to their size |
+
+<br>
+
+## Dots Loader
+
+![DotsLoader Example](https://raw.githubusercontent.com/roshab007/reacto-loader/refs/heads/main/gifs/dots_loader.gif)
+
+### Props
+
+| Prop             | Type                       | Default       | Description                                 |
+| ---------------- | -------------------------- | ------------- | ------------------------------------------- |
+| `primaryColor`   | `string`                   | `#3B82F6`     | Start color of the dot gradient             |
+| `secondaryColor` | `string`                   | `#93C5FD`     | End color of the dot gradient               |
+| `speed`          | `number`                   | `1`           | Controls animation speed (higher = slower)  |
+| `dotCount`       | `number`                   | `3`           | Number of dots                              |
+| `dotSize`        | `number`                   | `16`          | Diameter of each dot in pixels              |
+| `dotSpacing`     | `number`                   | `8`           | Horizontal spacing between dots             |
+| `scaleRange`     | `[number, number, number]` | `[1, 1.5, 1]` | Defines keyframes for scale animation cycle |
+
+<br>
 
 ## 📄 License
 

@@ -1,6 +1,6 @@
 {
   "name": "reacto-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./dist/web/cjs/index.js",
   "module": "./dist/web/esm/index.js",
   "types": "./dist/index.d.ts",
@@ -46,6 +46,18 @@
     "react-native-reanimated": "*",
     "react-native-svg": "*"
   },
+  "keywords": [
+    "reacto-loader",
+    "react-native",
+    "react",
+    "react-loader",
+    "react-native-loader",
+    "animation",
+    "loading-spinner",
+    "ui-component",
+    "progress-indicator",
+    "mobile-ui"
+  ],
   "homepage": "https://github.com/roshab007",
   "repository": {
     "type": "git",
