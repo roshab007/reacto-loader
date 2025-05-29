@@ -1,7 +1,6 @@
 # reacto-loader
 
 A sleek, high-performance Loader component designed for seamless integration into both React and React Native/Expo applications.
-Offers rich customization options, fluid animations, and full cross-platform compatibility — perfect for modern apps that demand style and speed.
 
 ## Installation
 
@@ -71,6 +70,22 @@ Follow the installation steps in their documentation to ensure proper linking an
 | `dotSize`        | `number`                   | `16`          | Diameter of each dot in pixels              |
 | `dotSpacing`     | `number`                   | `8`           | Horizontal spacing between dots             |
 | `scaleRange`     | `[number, number, number]` | `[1, 1.5, 1]` | Defines keyframes for scale animation cycle |
+
+<br>
+
+## Fade Loader
+
+![FadeLoader Example](https://raw.githubusercontent.com/roshab007/reacto-loader/refs/heads/main/gifs/fade_loader.gif)
+
+| Prop             | Type     | Default   | Description                                            |
+| ---------------- | -------- | --------- | ------------------------------------------------------ |
+| `size`           | `number` | `40`      | Diameter of the loader in pixels(px)                   |
+| `primaryColor`   | `string` | `#3B82F6` | Gradient start color for each dot                      |
+| `secondaryColor` | `string` | `#93C5FD` | Gradient end color for each dot                        |
+| `speed`          | `number` | `1.2`     | Duration of the fade animation cycle (seconds)         |
+| `dotCount`       | `number` | `8`       | Number of dots arranged in a circle                    |
+| `dotSize`        | `number` | `12`      | Diameter of each dot (px)                              |
+| `radius`         | `number` | `30`      | Radius of the circle on which dots are positioned (px) |
 
 <br>
 
