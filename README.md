@@ -89,6 +89,21 @@ Follow the installation steps in their documentation to ensure proper linking an
 
 <br>
 
+## Grid Loader
+
+![GridLoader Example](https://raw.githubusercontent.com/roshab007/reacto-loader/refs/heads/main/gifs/grid_loader.gif)
+
+| Prop             | Type     | Default   | Description                                       |
+| ---------------- | -------- | --------- | ------------------------------------------------- |
+| `primaryColor`   | `string` | `#3B82F6` | Gradient start color for each square              |
+| `secondaryColor` | `string` | `#93C5FD` | Gradient end color for each square                |
+| `speed`          | `number` | `1.2`     | Duration of one full animation cycle (in seconds) |
+| `gridSize`       | `number` | `3`       | Number of rows and columns in the grid            |
+| `squareSize`     | `number` | `12`      | Width and height of each square (in pixels)       |
+| `gap`            | `number` | `4`       | Gap (in pixels) between squares in the grid       |
+
+<br>
+
 ## 📄 License
 
 MIT

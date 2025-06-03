@@ -28,3 +28,9 @@ export interface FadeLoaderProps extends BaseLoaderProps {
   dotSize?: number;
   radius?: number;
 }
+
+export interface GridLoaderProps extends Omit<BaseLoaderProps, "size"> {
+  gridSize?: number;
+  squareSize?: number;
+  gap?: number;
+}
