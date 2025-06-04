@@ -121,6 +121,22 @@ Follow the installation steps in their documentation to ensure proper linking an
 
 <br>
 
+## Morphing Shapes Loader
+
+![MorphingShapesLoader Example](https://raw.githubusercontent.com/roshab007/reacto-loader/refs/heads/main/gifs/morphing_shapes_loader.gif)
+
+| Prop             | Type     | Default   | Description                                                                        |
+| ---------------- | -------- | --------- | ---------------------------------------------------------------------------------- |
+| `size`           | `number` | `40`      | Size of the container holding the morphing shape and orbiting dots                 |
+| `primaryColor`   | `string` | `#3B82F6` | Primary color used in gradients and glow effects                                   |
+| `secondaryColor` | `string` | `#93C5FD` | Secondary color used in gradients and glow effects                                 |
+| `speed`          | `number` | `1.5`     | Speed multiplier for the morphing and orbit animations (higher = slower animation) |
+| `shapeSize`      | `number` | `40`      | Diameter of the central morphing shape                                             |
+| `morphDuration`  | `number` | `2`       | Base duration (in seconds) for a full morph/rotate cycle                           |
+| `glowIntensity`  | `number` | `8`       | Intensity multiplier for the glow around the shape and dots                        |
+
+<br>
+
 ## 📄 License
 
 MIT

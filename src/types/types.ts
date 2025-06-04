@@ -42,3 +42,9 @@ export interface WaveLoaderProps extends Omit<BaseLoaderProps, "size"> {
   minHeight?: number;
   maxHeight?: number;
 }
+
+export interface MorphingShapesLoaderProps extends BaseLoaderProps {
+  shapeSize?: number;
+  morphDuration?: number;
+  glowIntensity?: number;
+}
