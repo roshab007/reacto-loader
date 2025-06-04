@@ -3,5 +3,13 @@ import CircularLoader from "./components/circularLoader/CircularLoader.web";
 import DotsLoader from "./components/dotsLoader/DotsLoader.web";
 import FadeLoader from "./components/fadeLoader/FadeLoader.web";
 import GridLoader from "./components/gridLoader/GridLoader.web";
+import WaveLoader from "./components/waveLoader/WaveLoader.web";
 
-export { BounceLoader, CircularLoader, DotsLoader, FadeLoader, GridLoader };
+export {
+  BounceLoader,
+  CircularLoader,
+  DotsLoader,
+  FadeLoader,
+  GridLoader,
+  WaveLoader,
+};

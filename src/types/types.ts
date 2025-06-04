@@ -34,3 +34,11 @@ export interface GridLoaderProps extends Omit<BaseLoaderProps, "size"> {
   squareSize?: number;
   gap?: number;
 }
+
+export interface WaveLoaderProps extends Omit<BaseLoaderProps, "size"> {
+  barCount?: number;
+  barWidth?: number;
+  barSpacing?: number;
+  minHeight?: number;
+  maxHeight?: number;
+}

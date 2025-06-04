@@ -104,6 +104,23 @@ Follow the installation steps in their documentation to ensure proper linking an
 
 <br>
 
+## Wave Loader
+
+![WaveLoader Example](https://raw.githubusercontent.com/roshab007/reacto-loader/refs/heads/main/gifs/wave_loader.gif)
+
+| Prop             | Type     | Default   | Description                                            |
+| ---------------- | -------- | --------- | ------------------------------------------------------ |
+| `primaryColor`   | `string` | `#3B82F6` | Start color of the animated gradient on each bar       |
+| `secondaryColor` | `string` | `#93C5FD` | End color of the animated gradient on each bar         |
+| `speed`          | `number` | `1`       | Duration (in seconds) of the full wave animation cycle |
+| `barCount`       | `number` | `5`       | Number of animated vertical bars                       |
+| `barWidth`       | `number` | `8`       | Width (in pixels) of each bar                          |
+| `barSpacing`     | `number` | `6`       | Horizontal spacing (gap) between the bars              |
+| `minHeight`      | `number` | `24`      | Minimum height (in pixels) each bar animates to        |
+| `maxHeight`      | `number` | `60`      | Maximum height (in pixels) each bar animates to        |
+
+<br>
+
 ## 📄 License
 
 MIT
