@@ -33,7 +33,7 @@ Follow the installation steps in their documentation to ensure proper linking an
 | `size`              | `number` | `40`      | Diameter of the loader in pixels                  |
 | `primaryColor`      | `string` | `#3B82F6` | Start color of the animated gradient stroke       |
 | `secondaryColor`    | `string` | `#93C5FD` | End color of the animated gradient stroke         |
-| `speed`             | `number` | `1.5`     | Duration (in seconds) for one full animation loop |
+| `speed`             | `number` | `2`       | Duration (in seconds) for one full animation loop |
 | `thickness`         | `number` | `8`       | Stroke width of the loader circle                 |
 | `backgroundOpacity` | `number` | `0.2`     | Opacity of the background circle                  |
 
@@ -130,7 +130,7 @@ Follow the installation steps in their documentation to ensure proper linking an
 | `size`           | `number` | `40`      | Size of the container holding the morphing shape and orbiting dots                 |
 | `primaryColor`   | `string` | `#3B82F6` | Primary color used in gradients and glow effects                                   |
 | `secondaryColor` | `string` | `#93C5FD` | Secondary color used in gradients and glow effects                                 |
-| `speed`          | `number` | `1.5`     | Speed multiplier for the morphing and orbit animations (higher = slower animation) |
+| `speed`          | `number` | `2`       | Speed multiplier for the morphing and orbit animations (higher = slower animation) |
 | `shapeSize`      | `number` | `40`      | Diameter of the central morphing shape                                             |
 | `morphDuration`  | `number` | `2`       | Base duration (in seconds) for a full morph/rotate cycle                           |
 | `glowIntensity`  | `number` | `8`       | Intensity multiplier for the glow around the shape and dots                        |
