@@ -127,13 +127,28 @@ Follow the installation steps in their documentation to ensure proper linking an
 
 | Prop             | Type     | Default   | Description                                                                        |
 | ---------------- | -------- | --------- | ---------------------------------------------------------------------------------- |
-| `size`           | `number` | `40`      | Size of the container holding the morphing shape and orbiting dots                 |
+| `size`           | `number` | `80`      | Size of the container holding the morphing shape and orbiting dots                 |
 | `primaryColor`   | `string` | `#3B82F6` | Primary color used in gradients and glow effects                                   |
 | `secondaryColor` | `string` | `#93C5FD` | Secondary color used in gradients and glow effects                                 |
 | `speed`          | `number` | `2`       | Speed multiplier for the morphing and orbit animations (higher = slower animation) |
 | `shapeSize`      | `number` | `40`      | Diameter of the central morphing shape                                             |
 | `morphDuration`  | `number` | `2`       | Base duration (in seconds) for a full morph/rotate cycle                           |
 | `glowIntensity`  | `number` | `8`       | Intensity multiplier for the glow around the shape and dots                        |
+
+<br>
+
+## Matrix Loader
+
+![MatrixLoader Example](https://raw.githubusercontent.com/roshab007/reacto-loader/refs/heads/main/gifs/matrix_loader.gif)
+
+| Prop         | Type     | Default   | Description                                                   |
+| ------------ | -------- | --------- | ------------------------------------------------------------- |
+| `size`       | `number` | `80`      | Width and height of the loader container (in pixels)          |
+| `color`      | `string` | `#3B82F6` | Color of the falling characters                               |
+| `speed`      | `number` | `2`       | Speed multiplier for the animation (higher = slower fall)     |
+| `columns`    | `number` | `6`       | Number of vertical columns of falling characters              |
+| `characters` | `string` | `"01"`    | String containing possible characters for the matrix effect   |
+| `dropSpeed`  | `number` | `2`       | Drop animation duration baseline (used in calculating delays) |
 
 <br>
 

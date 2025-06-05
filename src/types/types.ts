@@ -48,3 +48,11 @@ export interface MorphingShapesLoaderProps extends BaseLoaderProps {
   morphDuration?: number;
   glowIntensity?: number;
 }
+
+export interface MatrixLoaderProps
+  extends Omit<BaseLoaderProps, "primaryColor" | "secondaryColor"> {
+  columns?: number;
+  characters?: string;
+  dropSpeed?: number;
+  color?: string;
+}

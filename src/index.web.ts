@@ -3,6 +3,7 @@ import CircularLoader from "./components/circularLoader/CircularLoader.web";
 import DotsLoader from "./components/dotsLoader/DotsLoader.web";
 import FadeLoader from "./components/fadeLoader/FadeLoader.web";
 import GridLoader from "./components/gridLoader/GridLoader.web";
+import MatrixLoader from "./components/matrixLoader/MatrixLoader.web";
 import MorphingShapesLoader from "./components/morphingShapesLoader/MorphingShapesLoader.web";
 import WaveLoader from "./components/waveLoader/WaveLoader.web";
 
@@ -12,6 +13,7 @@ export {
   DotsLoader,
   FadeLoader,
   GridLoader,
+  MatrixLoader,
   MorphingShapesLoader,
   WaveLoader,
 };
